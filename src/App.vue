@@ -1,11 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HomeView from '@/views/HomeView.vue'
+</script>
 
 <template>
-  <div
-    class="flex min-h-screen items-center justify-center bg-linear-to-br from-indigo-500 to-purple-700"
-  >
-    <h1 class="text-6xl font-bold text-white drop-shadow-lg">Hello World</h1>
-  </div>
+  <HomeView />
 </template>
-
-<style scoped></style>
